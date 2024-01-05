@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <script src="https://kit.fontawesome.com/e32e414c6d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <!-- header -->
+        <header>
+            <div class="icon">
+                <a href="">
+                    <img src="image/logo plant.svg" alt="">
+                </a>
+            </div>
+            <!-- search_container  -->
+            <div class="search-container">
+                <input type="search" id="searchInput" placeholder="What are you looking for?">
+                <button type="submit" id="searchButton">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <!-- icon -->
+            <div class="button1">
+                <div class="login">
+                    <button>
+                        <a href="">LOG IN</a>
+                    </button>
+                </div>
+                <div class="user">
+                    <button>
+                        <a href=""><i class="fa-solid fa-user"></i></a>
+                    </button>
+                </div>
+                <div class="cart">
+                    <button><a href=""><i class="fa-solid fa-cart-shopping"></i></a></button>
+                </div>
+            </div>
+        </header>
+        <!-- form -->
+        <section class="contact_us">
+            <div class="contact_box">
+                <div class="contact">
+                    <p>
+                        CONTACT US
+                    </p>
+                </div>
+                <form action="">
+
+                    <div class="Name">
+                        <input type="text" id="name" placeholder="Name">
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="question-container">
+                        <label for="delivery-question">I have a delivery question about my order:</label>
+
+                        <div class="radio-group">
+                            <label for="option1">
+                                <input type="radio" id="option1" name="delivery-options" class="radio-button">
+                                <span class="radio-label">I did not receive my order</span>
+                            </label>
+
+                            <label for="option2">
+                                <input type="radio" id="option2" name="delivery-options" class="radio-button">
+                                <span class="radio-label">My order is incorrect or arrived damaged</span>
+                            </label>
+
+                            <label for="option3">
+                                <input type="radio" id="option3" name="delivery-options" class="radio-button">
+                                <span class="radio-label">Cancel my order</span>
+                            </label>
+
+                            <label for="option4">
+                                <input type="radio" id="option4" name="delivery-options" class="radio-button">
+                                <span class="radio-label">Change my shipping address</span>
+                            </label>
+                        </div>
+
+                        <div class="textarea">
+                            <label for="additional-comments">Please provide more details below.</label>
+                            <textarea id="additional-comments" rows="4" placeholder="Massege"></textarea>
+
+                        </div>
+                        <div class="check_box">
+                            <input type="checkbox" name="check_in" id="check_in" class="check_in">
+                            <label for="check_in">I want to receive the newsletter</label>
+                        </div>
+                    </div>
+                    <div class="send_button">
+                        <input type="submit" name="send_button" value="SEND" id="send_button">
+
+                    </div>
+            </div>
+
+
+
+            </form>
+        </section>
+
+</body>
+
+</html>
