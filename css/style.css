@@ -17,7 +17,7 @@ header {
     padding: 34px 72px;
     background-color: #2E0230;
     gap: 277px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .icon {
@@ -164,7 +164,7 @@ header {
     border: 1px solid rgba(176, 82, 181, 0.79);
     background: rgba(28, 19, 37, 0.80);
     backdrop-filter: blur(5px);
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 
@@ -190,7 +190,7 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: burlywood;
+    /* background-color: burlywood; */
  }
 .Name {
     display: flex;
@@ -217,7 +217,7 @@ header {
     padding: 11px 0 11px 22px;
     margin-top: 80px;
     background: transparent;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 }
 
      /* radio */
@@ -234,7 +234,7 @@ header {
     line-height: 26px;
     /* 162.5% */
     margin-top: 24px;
-    background-color: coral;
+    /* background-color: coral; */
 }
      
 .radio-group {
