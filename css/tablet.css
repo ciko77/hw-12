@@ -1,10 +1,10 @@
 @media (max-width:835px){
-     /* header */
-
+    
+    /* header */
 
  header {
     padding-inline: 40px;
-    gap: 270px;
+    gap: 100px;
 }
  
     #searchInput{
@@ -25,7 +25,14 @@ background: none;
     background: transparent;
 }
 
+.contact_box {
+    width: 754px;
+    height: 770px;
+    padding: 48px 45px;
+
+}
     .contact_us{
     padding-inline: 40px;
 }
+
 }

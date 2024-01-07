@@ -2,10 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 
 .container {
-    max-width: 1440px;
-    width: 100%;
+    width: min(100%, 1440px);
     margin: auto;
-
     background-color: blueviolet;
     /* height: 898px; */
 }
@@ -19,7 +17,7 @@ header {
     padding: 34px 72px;
     background-color: #2E0230;
     gap: 277px;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .icon {
@@ -150,7 +148,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 64px 288px;
+    /* padding: 64px 288px; */
 }
 
 .contact_box {
@@ -166,7 +164,7 @@ header {
     border: 1px solid rgba(176, 82, 181, 0.79);
     background: rgba(28, 19, 37, 0.80);
     backdrop-filter: blur(5px);
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 
@@ -187,16 +185,26 @@ header {
     /* background-color: aquamarine; */
 }
 /* form */
-
+ form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: burlywood;
+ }
 .Name {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    
+
 
 }
 
 #name,
 #email {
+    width: 220px;
+    height: 48px;
     border: var(--button-borders);
     border-radius: 8px;
     color: rgba(158, 141, 158, 0.71);
@@ -209,6 +217,7 @@ header {
     padding: 11px 0 11px 22px;
     margin-top: 80px;
     background: transparent;
+    background-color: cornflowerblue;
 }
 
      /* radio */
@@ -225,6 +234,7 @@ header {
     line-height: 26px;
     /* 162.5% */
     margin-top: 24px;
+    background-color: coral;
 }
      
 .radio-group {
