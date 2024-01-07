@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/variables.css">
     <script src="https://kit.fontawesome.com/e32e414c6d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Document</title>
 </head>
 
@@ -23,7 +25,7 @@
             <!-- search_container  -->
             <div class="search-container">
                 <input type="search" id="searchInput" placeholder="What are you looking for?">
-                <button type="submit" id="searchButton">
+                <button type="submit" id="searchButton" aria-label="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </div>
@@ -44,7 +46,9 @@
                 </div>
             </div>
         </header>
-        <!-- form -->
+
+
+       <!-- section -->
         <section class="contact_us">
             <div class="contact_box">
                 <div class="contact">
@@ -52,13 +56,14 @@
                         CONTACT US
                     </p>
                 </div>
+            <!-- form -->
                 <form action="">
 
                     <div class="Name">
                         <input type="text" id="name" placeholder="Name">
                         <input type="email" id="email" placeholder="Email">
                     </div>
-
+<!-- radio -->
                     <div class="question-container">
                         <label for="delivery-question">I have a delivery question about my order:</label>
 
@@ -83,11 +88,11 @@
                                 <span class="radio-label">Change my shipping address</span>
                             </label>
                         </div>
-
+<!-- textarea -->
                         <div class="textarea">
                             <label for="additional-comments">Please provide more details below.</label>
                             <textarea id="additional-comments" rows="4" placeholder="Massege"></textarea>
-
+<!-- check_box -->
                         </div>
                         <div class="check_box">
                             <input type="checkbox" name="check_in" id="check_in" class="check_in">
