@@ -4,7 +4,7 @@
 
  header {
     padding-inline: 40px;
-    gap: 100px;
+    gap: 80px;
 }
  
     #searchInput{
@@ -16,7 +16,7 @@ background: none;
  #searchButton i{
     background: transparent;
     font-size: 32px;
-    
+
  }
  .search-container{
     border: none;

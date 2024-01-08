@@ -171,7 +171,7 @@ header {
 .contact {
     display: flex;
     height: 26px;
-    margin-top: 48px;
+    /* margin-top: 48px; */
     left: 310px;
     color: #FFF;
     text-shadow: 2px 4px 4px rgba(249, 12, 239, 0.71);
